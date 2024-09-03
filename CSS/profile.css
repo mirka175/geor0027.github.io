@@ -1,0 +1,119 @@
+body{
+    background-color: pink;
+    font-family: 'Helvetica Neue';
+}
+
+/*Nav bar styling*/
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(187, 86, 141);
+    color: white;
+    text-align: center;
+}
+
+.links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 3.5vh 3vw;
+    display: block;
+}
+
+.links li:hover {
+    background-color: rgb(181, 40, 117);
+}
+
+/*End of nav bar styling*/
+
+.p1{
+    position: absolute;
+    left: 50px;
+    top: 91px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 69px;
+}
+
+.p2{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 168px;
+}
+
+.p3{
+    position: absolute;
+    left: 50px;
+    top: 325px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.div1 img{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px; 
+}
+.me{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px; 
+}
+
+.h1-1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.h3-1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.burgas{
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    vertical-align:top;
+    border-radius: 25px; 
+}
+
+.border{
+    border: 3px solid rgb(175, 61, 124);
+    border-radius: 10px;
+}
+
+.promphoto{
+    text-align: center; 
+    border-radius: 25px; 
+    width: 600px;
+    height: 500px;
+}
+
+.graduation{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px; 
+}
