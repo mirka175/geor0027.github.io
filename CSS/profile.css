@@ -1,17 +1,25 @@
 body{
     background-color: pink;
     font-family: 'Helvetica Neue';
+    color: #4C4343;
+    padding:0; 
+    margin:0;
 }
 
 /*Nav bar styling*/
 .navbar {
-    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(187, 86, 141);
     color: white;
     text-align: center;
+}
+
+.logo img {
+    margin-left: 1vw;
+    height: 70px;
+    width: 70px;
 }
 
 .links ul {
@@ -36,26 +44,18 @@ body{
     background-color: rgb(181, 40, 117);
 }
 
-/*End of nav bar styling*/
-
+/*Text*/
 .p1{
     position: absolute;
+    display: block;
     left: 50px;
-    top: 91px;
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 55px;
-    line-height: 69px;
+    font-size: 60px;
 }
 
 .p2{
     position: absolute;
     left: 50px;
-    top: 100px;
-
-    font-style: normal;
-    font-weight: 500;
+    display: block;
     font-size: 100px;
     line-height: 168px;
 }
@@ -63,57 +63,78 @@ body{
 .p3{
     position: absolute;
     left: 50px;
-    top: 325px;
-
-    font-style: normal;
-    font-weight: 300;
+    top: 313px;
     font-size: 30px;
     line-height: 44px;
 }
 
-.div1 img{
-    width: 400px;
-    height: 500px;
-    border-radius: 25px; 
-}
-.me{
-    width: 400px;
-    height: 500px;
-    border-radius: 25px; 
+.bgflag img{
+    position: absolute;
+    width: 70px;
+    height: 69px;
+    left: 240px;
+    top: 355px;
 }
 
-.h1-1{
+.p4{
+    position: absolute;
+    left: 50px;
+    top: 420px;
+    font-size: 30px;
+}
+
+.div1{
+    position: absolute;
+    left: 50px;
+    top:520px;
+    font-size: 30px;
+}
+
+.ul1{
+    font-size: 25px;
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0;
+}
+
+.ul1 li {
+    display: inline-flex;
+    margin: 10px; 
+}
+
+.images{
+    position: absolute;
+    width: 864px;
+    height: 674px;
+    padding-left: 55%;
+    top: 87px;
+}
+
+/*Footer*/
+
+footer { 
+    display: flex;
+    padding-left: 20px;
+    background-color: rgb(187, 86, 141);
+    font-size: 20px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+.text{
+    font-weight: bold;
+    color: white;
+}
+
+.ul2{
+    display: flex; 
+    justify-content: space-around;
+    padding: 0;
+}
+
+.ul2 li {
     display: inline-block;
-    vertical-align: top;
-}
-
-.h3-1{
-    display: inline-block;
-    vertical-align: top;
-}
-
-.burgas{
-    width: 600px;
-    height: 500px;
-    display: inline-block;
-    vertical-align:top;
-    border-radius: 25px; 
-}
-
-.border{
-    border: 3px solid rgb(175, 61, 124);
-    border-radius: 10px;
-}
-
-.promphoto{
-    text-align: center; 
-    border-radius: 25px; 
-    width: 600px;
-    height: 500px;
-}
-
-.graduation{
-    width: 400px;
-    height: 500px;
-    border-radius: 25px; 
+    margin: 10px; 
 }
