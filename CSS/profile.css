@@ -1,9 +1,9 @@
-body{
+body {
     background-color: pink;
     font-family: 'Helvetica Neue';
     color: #4C4343;
-    padding:0; 
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 /*Nav bar styling*/
@@ -45,14 +45,14 @@ body{
 }
 
 /*Text*/
-.p1{
+.p1 {
     position: absolute;
     display: block;
     left: 50px;
     font-size: 60px;
 }
 
-.p2{
+.p2 {
     position: absolute;
     left: 50px;
     display: block;
@@ -60,7 +60,7 @@ body{
     line-height: 168px;
 }
 
-.p3{
+.p3 {
     position: absolute;
     left: 50px;
     top: 313px;
@@ -68,7 +68,7 @@ body{
     line-height: 44px;
 }
 
-.bgflag img{
+.bgflag img {
     position: absolute;
     width: 70px;
     height: 69px;
@@ -76,65 +76,62 @@ body{
     top: 355px;
 }
 
-.p4{
+.p4 {
     position: absolute;
     left: 50px;
     top: 420px;
     font-size: 30px;
 }
 
-.div1{
+.p5 {
     position: absolute;
     left: 50px;
-    top:520px;
+    top: 520px;
     font-size: 30px;
 }
 
-.ul1{
+.ul1 {
+    list-style-type: none;
+    
+    padding: 50px;
+    overflow: hidden;
     font-size: 25px;
-    display: flex; 
-    justify-content: space-around; 
-    padding: 0;
 }
 
-.ul1 li {
-    display: inline-flex;
-    margin: 10px; 
-}
-
-.images{
+.images {
     position: absolute;
     width: 864px;
     height: 674px;
-    padding-left: 55%;
+    margin-left: 609px;
     top: 87px;
+    display: flex;
 }
 
 /*Footer*/
 
-footer { 
+footer {
     display: flex;
     padding-left: 20px;
     background-color: rgb(187, 86, 141);
     font-size: 20px;
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
+    position: absolute;
+    bottom: -50px;
+    left: 0;
     right: 0;
 }
 
-.text{
+.text {
     font-weight: bold;
     color: white;
 }
 
-.ul2{
-    display: flex; 
+.ul2 {
+    display: flex;
     justify-content: space-around;
     padding: 0;
 }
 
 .ul2 li {
     display: inline-block;
-    margin: 10px; 
+    margin: 10px;
 }
