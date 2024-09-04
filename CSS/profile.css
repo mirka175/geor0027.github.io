@@ -46,53 +46,49 @@ body {
 
 /*Text*/
 .p1 {
-    position: absolute;
-    display: block;
-    left: 50px;
+    margin: 25px 25px 10px 0px;
     font-size: 60px;
+    font-weight: bold;
 }
 
 .p2 {
-    position: absolute;
-    left: 50px;
-    display: block;
-    font-size: 100px;
-    line-height: 168px;
+    display: inline;
+    margin: 25px 25px 40px 30px;
+    font-size: 50px;
 }
 
-.p3 {
-    position: absolute;
-    left: 50px;
-    top: 313px;
+table {
     font-size: 30px;
-    line-height: 44px;
+    line-height: 40px;
+    border: 0px;
+    text-align: left;
+    margin-left: 30px;
+    width: 20%;
 }
 
-.bgflag img {
-    position: absolute;
+table img {
     width: 70px;
     height: 69px;
-    left: 240px;
-    top: 355px;
 }
 
 .p4 {
-    position: absolute;
-    left: 50px;
-    top: 420px;
+    display: inline;
     font-size: 30px;
+    margin-left: 30px;
+}
+
+span{
+    margin-left: 30px;
 }
 
 .p5 {
-    position: absolute;
-    left: 50px;
     top: 520px;
     font-size: 30px;
+    margin-left: 30px;
 }
 
 .ul1 {
     list-style-type: none;
-    
     padding: 50px;
     overflow: hidden;
     font-size: 25px;
@@ -107,15 +103,20 @@ body {
     display: flex;
 }
 
+article {
+    /* display: block; */
+}
+
 /*Footer*/
 
 footer {
+    position: absolute;
     display: flex;
     padding-left: 20px;
     background-color: rgb(187, 86, 141);
     font-size: 20px;
     position: absolute;
-    bottom: -50px;
+    bottom: auto;
     left: 0;
     right: 0;
 }
