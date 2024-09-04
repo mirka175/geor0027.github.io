@@ -1,0 +1,120 @@
+/*Layout*/
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 95vh;
+    background-color: pink;
+    font-family: 'Helvetica Neue';
+    color: #4C4343;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1em 0 1em 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+main {
+    padding: 3em 0 3em 0;
+    flex: 5 5 150px;
+}
+
+footer {
+    padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 5em 0 5em 0;
+    }
+}
+
+/*Nav bar styling*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(187, 86, 141);
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    margin-left: 1vw;
+    height: 70px;
+    width: 70px;
+}
+
+.links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 3.5vh 3vw;
+    display: block;
+}
+
+.links li:hover {
+    background-color: rgb(181, 40, 117);
+}
+
+/*Aside menu*/
+aside{
+    background-color: #CC7794;
+    font-size: 33px;
+    
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    padding-left: 20px;
+    background-color: rgb(187, 86, 141);
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.text {
+    font-weight: bold;
+    color: white;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 0px;
+}
+
+.ul2 li {
+    display: inline-block;
+    margin: 10px;
+}
