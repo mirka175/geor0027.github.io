@@ -1,0 +1,33 @@
+article {
+    border: 1px solid rgb(187, 86, 141);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.h2_1 {
+    font-size: 30px;
+}
+
+.excerpt {
+    color: #504b4b;
+}
+
+a.read-more {
+    text-decoration: none;
+    color: #295a8b;
+    font-weight: bold;
+}
+
+a.read-more:hover {
+    text-decoration: underline;
+    color: #1f2c77;
+}
+
+summary {
+    font-weight: bold;
+}

@@ -85,10 +85,29 @@ footer {
 }
 
 /*Aside menu*/
-aside{
+aside {
     background-color: #CC7794;
     font-size: 33px;
-    
+
+}
+
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul1 li a {
+    display: block;
+    color: white;
+    background-color: rgb(187, 86, 141);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ul1 li a:hover {
+    background-color: rgb(181, 40, 117);
+    text-decoration: underline;
 }
 
 /*Footer*/
@@ -107,14 +126,13 @@ footer {
     color: white;
 }
 
-.ul2 {
+.ul3 {
     display: flex;
     justify-content: space-around;
     padding: 0;
-    margin-right: 0px;
 }
 
-.ul2 li {
+.ul3 li {
     display: inline-block;
     margin: 10px;
 }
