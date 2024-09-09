@@ -17,6 +17,16 @@ th{
     border-collapse: collapse;
 }
 
+.inProgress{
+    background-color: rgb(230, 183, 97);
+    color: black;
+}
+
+.notStarted{
+    background-color: rgb(220, 74, 74);
+    color: black;
+}
+
 .progress {
     width: 100%;
     background-color: #f3f3f3;
