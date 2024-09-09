@@ -34,15 +34,120 @@
                         CER</a><br></li>
                 <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
                         target="_blank">IR of the HBO-ICT</a><br></li>
-                <li><a href="https://learn.hz.nl/"
-                        target="_blank">Learn environment</a><br></li>
+                <li><a href="https://learn.hz.nl/" target="_blank">Learn environment</a><br></li>
                 <li><a href="https://hz.osiris-student.nl/home" target="_blank">Study Progress</a><br></li>
                 <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">GitHub HBO-ICT</a><br></li>
             </ul>
         </aside>
 
         <main>
+            <section>
+                <h2>First-Year Test Components</h2>
+                <table>
+                    <tr>
+                        <th>Course designation</th>
+                        <th>Course name</th>
+                        <th>Course EC amount</th>
+                        <th>Course project</th>
+                        <th>Course timing</th>
+                        <th>Course status</th>
+                    </tr>
+                    <tr>
+                        <td>CU75001</td>
+                        <td>Program- & Career Orientation</td>
+                        <td>2,5 EC</td>
+                        <td>Portfolio website (Presentation)</td>
+                        <td>Block 1</td>
+                        <td>In progress</td>
+                    </tr>
+                    <tr>
+                        <td>CU75002</td>
+                        <td>Computer Science Basics</td>
+                        <td>5 EC</td>
+                        <td>Written knowledge test</td>
+                        <td>Block 1</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75003</td>
+                        <td>Programming Basics</td>
+                        <td>5 EC</td>
+                        <td>Written knowledge test</td>
+                        <td>Block 1</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75068</td>
+                        <td>Personal Professional Development Exploration</td>
+                        <td>12,5 EC</td>
+                        <td>Criterion-referenced assessment</td>
+                        <td>Block 1-4</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75004</td>
+                        <td>Object-Oriented Programming</td>
+                        <td>10 EC</td>
+                        <td>Presentation, Written knowledge test</td>
+                        <td>Block 2</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>-------</td>
+                        <td>IT Personality</td>
+                        <td>2,5 EC</td>
+                        <td>Portfolio</td>
+                        <td>Block 2-4</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75081</td>
+                        <td>Business IT Consultancy Basics</td>
+                        <td>2,5 EC</td>
+                        <td>Assignment</td>
+                        <td>Block 3-4</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75080</td>
+                        <td>Framework Project 1</td>
+                        <td>10 EC</td>
+                        <td>Written knowledge test, Presentation, Portfolio</td>
+                        <td>Block 3</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>CU75011</td>
+                        <td>Framework Project 2</td>
+                        <td>10 EC</td>
+                        <td>Presentation, Portfolio</td>
+                        <td>Block 4</td>
+                        <td>Not started</td>
+                    </tr>
+                </table>
 
+            </section>
+
+            <section>
+                <h2>Progress Overview</h2>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 3%;">0/60 EC</div>
+                </div>
+                <p>NBSA boundary: 45 EC</p>
+            </section>
+
+            <script>
+                const totalEC = 60;
+                const obtainedEC = 0;
+
+                const progressBar = document.getElementById('progress-bar');
+                const progressPercentage = (obtainedEC / totalEC) * 100;
+
+                progressBar.style.width = progressPercentage + '%';
+                progressBar.textContent = obtainedEC + '/60 EC';
+
+                // Functionality for adding grades and future updates could be added here
+            </script>
         </main>
     </div>
 
