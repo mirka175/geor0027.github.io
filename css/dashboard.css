@@ -14,18 +14,36 @@ table, td{
 
 th{
     border: 3px solid rgb(187, 86, 141);
-    border-collapse: collapse;
 }
 
-.inProgress{
-    background-color: rgb(230, 183, 97);
-    color: black;
+.block1{
+    background-color: #cac1d8;
 }
 
-.notStarted{
-    background-color: rgb(220, 74, 74);
-    color: black;
+.block2{
+    background-color: #f6d7b9;
 }
+
+.block3{
+    background-color: #e17b74;
+}
+
+.block4{
+    background-color: #927cb3;
+}
+
+.block3-4{
+    background-color: #cd722e;
+}
+
+.block1-4{
+    background-color: rgb(197, 234, 88);
+}
+
+.block2-4{
+    background-color: rgb(66, 212, 178);
+}
+
 
 .progress {
     width: 100%;
@@ -36,6 +54,8 @@ th{
 
 .progress-bar {
     background-color: red;
+    font-size: 15px;
     text-align: center;
     color: white;
+    border-radius: 25px;
 }
