@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 2px 2px 4px rgb(181, 40, 117);
+}
+
+.div2{
+    display: flex;
+    justify-content: left;
+    gap:15px;
+    margin-bottom: 15px;
+}
