@@ -116,9 +116,6 @@ footer {
     padding-left: 20px;
     background-color: rgb(187, 86, 141);
     font-size: 20px;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .text {
@@ -127,8 +124,9 @@ footer {
 }
 
 .div1 {
-    display: flex;
-    justify-content: right;
+    float: right;
     gap:15px;
     margin-top: 5px;
+    margin-left: 75%;
+    
 }
