@@ -66,6 +66,7 @@ footer {
     margin: 0;
     padding: 0;
     display: flex;
+    margin-left: 40%;
 }
 
 .links li {
