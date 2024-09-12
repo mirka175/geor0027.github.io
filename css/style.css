@@ -6,7 +6,7 @@
 
 body {
     height: 95vh;
-    background-color: pink;
+    background-color: rgb(255, 192, 203);
     font-family: 'Helvetica Neue';
     color: #4C4343;
     display: flex;
@@ -56,12 +56,6 @@ footer {
     text-align: center;
 }
 
-.logo img {
-    margin-left: 1vw;
-    height: 70px;
-    width: 65px;
-}
-
 .links ul {
     margin: 0;
     padding: 0;
@@ -87,7 +81,7 @@ footer {
 
 /*Aside menu*/
 aside {
-    background-color: #CC7794;
+    background-color: rgb(204, 119, 148);
     font-size: 15px;
 }
 
