@@ -15,6 +15,7 @@ ul{
 .gitLinks a {
     text-decoration: none;
     color: rgb(187, 86, 141);
+    font-weight: bold;
 }
 
 .gitLinks a:hover {

@@ -22,15 +22,15 @@ article ul {
     color: #504b4b;
 }
 
-a.read-more {
+a.mynetpay {
     text-decoration: none;
-    color: #295a8b;
+    color: rgb(187, 86, 141);
     font-weight: bold;
 }
 
-a.read-more:hover {
+a.mynetpay:hover {
+    color: rgb(181, 40, 117);
     text-decoration: underline;
-    color: #1f2c77;
 }
 
 summary {
