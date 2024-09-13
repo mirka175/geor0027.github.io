@@ -49,11 +49,8 @@ footer {
 /*Nav bar styling*/
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgb(187, 86, 141);
     color: white;
-    text-align: center;
 }
 
 .links ul {
