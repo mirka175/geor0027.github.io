@@ -1,8 +1,8 @@
-.h1 {
+h1 {
     margin-bottom: 20px;
 }
 
-.p2 {
+.name {
     display: inline;
     font-size: 35px;
     margin-bottom: 20px;
@@ -22,15 +22,15 @@ table img {
     height: 59px;
 }
 
-.p4 {
+.education {
     font-size: 25px;
 }
 
-.p5 {
+.hobbies {
     font-size: 25px;
 }
 
-.ul2 {
+.hobbiesList {
     overflow: hidden;
     list-style-type: circle;
     font-size: 20px;

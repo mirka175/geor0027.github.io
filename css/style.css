@@ -17,7 +17,7 @@ header {
     padding: 1em 0 em 0;
 }
 
-.main {
+.mainAndAsideMenu {
     display: flex;
     flex: 1;
 }
@@ -32,12 +32,8 @@ main {
     flex: 5 5 150px;
 }
 
-footer {
-    padding: 1em 0 1em 0;
-}
-
 @media all and (max-width: 550px) {
-    .main {
+    .mainAndAsideMenu {
         flex-direction: column;
     }
 
@@ -82,12 +78,12 @@ aside {
     font-size: 15px;
 }
 
-.ul1 {
+.asideMenu {
     list-style-type: none;
     padding: 0;
 }
 
-.ul1 li a {
+.asideMenu li a {
     display: block;
     color: white;
     background-color: rgb(187, 86, 141);
@@ -96,7 +92,7 @@ aside {
     border-radius: 5px;
 }
 
-.ul1 li a:hover {
+.asideMenu li a:hover {
     background-color: rgb(181, 40, 117);
     text-decoration: underline;
 }
@@ -114,10 +110,9 @@ footer {
     color: white;
 }
 
-.div1 {
+.footerPhotos {
     float: right;
     gap:15px;
     margin-top: 5px;
     margin-left: 75%;
-    
 }
