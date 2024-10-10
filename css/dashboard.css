@@ -36,6 +36,7 @@ th{
 
 .progress-bar {
     background-color: red;
+    width: 5%;
     font-size: 15px;
     text-align: center;
     color: white;
